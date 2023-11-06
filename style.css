@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap'); 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('images/second.jpg');
+    background-size: cover;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 70vw;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+}
+.list-section {
+    width: 100%;
+    height: 100%;
+    padding:20px;
+    margin: 20px;
+}
+.input-section {
+    width: 100%;
+    height: 100%;
+    padding:20px;
+    margin: 20px;
+}
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 26px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 2px solid #636363;
+}
+h1{
+    font-size: 3.5em;
+    margin-bottom: 20px;
+}
+.main-para{
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+.list-item-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-left: 15px;
+    padding-right: 15px ;
+}
+.bottom-border{
+    border-bottom: 1px solid #636363;
+}
+.list-item{
+    font-size: 1.5em;
+    font-family: 'Kalam', cursive;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.strike-text{
+    text-decoration: line-through;
+}
+.checkbox{
+    margin-right: 10px;
+}
+.checkbox:hover{
+    cursor: pointer;
+}
+.cross{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+span:hover{
+    cursor: pointer;
+}
+.list{
+    border: 2px solid #636363;
+    border-radius: 10px;
+    padding: 20px;
+}
